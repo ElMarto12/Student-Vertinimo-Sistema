@@ -41,7 +41,7 @@ namespace Praktika2.Users
             set { type = value; }
         }
 
-        //polymorphic method to create user in system
+        
         public virtual void user_create(string uname, string pword, string type)
         {
             MySqlCommand cmd = null;
