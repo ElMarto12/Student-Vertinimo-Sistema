@@ -36,7 +36,6 @@ namespace Praktika2.Users
             set { lname = value; }
         }
 
-        //polymorphic method
         public virtual void create(string teach_name, string teach_lname, string extra)
         {
             MySqlCommand cmd = null;
